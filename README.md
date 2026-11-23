@@ -36,8 +36,10 @@ Mini-Projects-and-Experiments/
 ## Notes
 
 - These projects are learning experiments and should not be treated as production systems.
-- To keep this archive lightweight, large visual assets (images and bundled font files), the large Walmart train/test CSV files, and serialized model/scaler files are not duplicated here. The copied HTML/CSS and notebooks are preserved, but some pages may need their original assets to render exactly as intended. See the original repositories linked below to access the complete source and assets.
-- Original source repositories: [Personal Portfolio](https://github.com/MernaAyman-l/Personal-Portfolio-Website) · [Pro Food](https://github.com/MernaAyman-l/pro-food-html-css) · [Floral Boutique](https://github.com/MernaAyman-l/floral-boutique-landing-page) · [KNN Risk Evaluation](https://github.com/MernaAyman-l/knn-regressor-risk-evaluation) · [Sales Forecasting](https://github.com/MernaAyman-l/sales-prediction-project). Keep these originals until you have checked the consolidated archive.
+- The original images and bundled icon-font assets for the two portfolio/landing-page projects are included in this archive.
+- The Sales Forecasting folder includes the notebook, feature/store data, train/test datasets, and the previously saved model/scaler files. Load `.pkl` files only from trusted sources.
+- The KNN notebook expects `x_train`, `y_train`, `x_test`, and `y_test` variables, but the original repository did not contain the source dataset or the files that create those variables. Those missing inputs cannot be copied from GitHub; the notebook needs its original data/preprocessing source to become reproducible.
+- Notebook results should be regenerated before quoting performance metrics.
 - Notebook results should be regenerated before quoting performance metrics.
 - Load serialized model files such as `.pkl` only from trusted sources.
 
