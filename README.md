@@ -36,8 +36,8 @@ Mini-Projects-and-Experiments/
 ## Notes
 
 - These projects are learning experiments and should not be treated as production systems.
-- Some original image, font, and dataset assets are referenced from their original repositories to avoid duplicating large binary files in this archive.
-- The original repositories are retained as source copies until this consolidated archive has been checked.
+- To keep this archive lightweight, large visual assets (images and bundled font files), the large Walmart train/test CSV files, and serialized model/scaler files are not duplicated here. The copied HTML/CSS and notebooks are preserved, but some pages may need their original assets to render exactly as intended. See the original repositories linked below to access the complete source and assets.
+- Original source repositories: [Personal Portfolio](https://github.com/MernaAyman-l/Personal-Portfolio-Website) · [Pro Food](https://github.com/MernaAyman-l/pro-food-html-css) · [Floral Boutique](https://github.com/MernaAyman-l/floral-boutique-landing-page) · [KNN Risk Evaluation](https://github.com/MernaAyman-l/knn-regressor-risk-evaluation) · [Sales Forecasting](https://github.com/MernaAyman-l/sales-prediction-project). Keep these originals until you have checked the consolidated archive.
 - Notebook results should be regenerated before quoting performance metrics.
 - Load serialized model files such as `.pkl` only from trusted sources.
 
