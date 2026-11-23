@@ -37,7 +37,7 @@ Mini-Projects-and-Experiments/
 
 - These projects are learning experiments and should not be treated as production systems.
 - The original images and bundled icon-font assets for the two portfolio/landing-page projects are included in this archive.
-- The Sales Forecasting folder includes the notebook, feature/store data, train/test datasets, and the previously saved model/scaler files. Load `.pkl` files only from trusted sources.
+- The Sales Forecasting folder includes the notebook, feature/store data, and the previously saved model/scaler files. The original `train.csv` and `test.csv` are still in the source repository: GitHub's connected file reader returned empty content for these large files, so they were not copied. Keep the original repository until you have downloaded and added those two datasets manually. Load `.pkl` files only from trusted sources.
 - The KNN notebook expects `x_train`, `y_train`, `x_test`, and `y_test` variables, but the original repository did not contain the source dataset or the files that create those variables. Those missing inputs cannot be copied from GitHub; the notebook needs its original data/preprocessing source to become reproducible.
 - Notebook results should be regenerated before quoting performance metrics.
 - Notebook results should be regenerated before quoting performance metrics.
